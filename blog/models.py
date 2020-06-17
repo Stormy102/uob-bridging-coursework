@@ -6,7 +6,9 @@ from django.utils import timezone
 class Post(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
+    description = models.CharField(max_length=500, default="Test Description")
     text = models.TextField()
+    header = models.URLField(default="")
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
 
