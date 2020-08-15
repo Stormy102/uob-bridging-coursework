@@ -3,6 +3,9 @@
     <head>
         <title>Matt Dawson | UoB Bridging Coursework</title>
         <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 
         <!-- Async load Cookie Consent -->
@@ -44,6 +47,38 @@
 
         {% block content %}
         {% endblock %}
+
+        <footer class="page-footer font-small blue pt-4">
+          <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-1"></div>
+              <div class="col-md-7">
+                <h5 class="text-uppercase">UoB Bridging Coursework</h5>
+                <p>Made with ❤️ with Python and Django</p>
+              </div>
+              <div class="col-md-3">
+                  <h5 class="text-uppercase">Social Media</h5>
+                  <div>
+                      <div class="icons">
+                        <a href="https://github.com/mdawsonuk">
+                            <i class="fa fa-github fa-4x icon-default" aria-hidden="true"></i>
+                            <i class="fa fa-github-square fa-4x icon-hover" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                      <div class="icons" style="left: 4em;">
+                        <a href="https://linkedin.com/in/mdawsonuk">
+                            <i class="fa fa-linkedin fa-4x icon-default" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square fa-4x icon-hover" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="/"> Matthew Dawson</a>
+          </div>
+        </footer>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

@@ -1,0 +1,58 @@
+.icons {
+    color: white;
+    position: relative;
+    display: inline-block;
+
+    justify-content: center;
+	  align-items: center;
+
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.icons a i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+.icons .icon-default {
+    transition: opacity .3s, transform .3s;
+}
+
+.icons .icon-hover {
+    transition: opacity .3s, transform .3s;
+    transform: rotate(-180deg) scale(.5);
+    opacity: 0;
+}
+
+.icons a {
+    color: white !important;
+}
+
+.icons a:visited {
+    color: white;
+}
+
+.icons a:hover {
+    color: white;
+}
+
+.icons a:hover {
+    color: white;
+}
+
+.icons a:active {
+    color: white;
+}
+
+.icons:hover .icon-default {
+    transform: rotate(180deg) scale(.5);
+    opacity: 0;
+}
+
+.icons:hover .icon-hover {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+}
