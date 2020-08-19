@@ -9,7 +9,7 @@ window.cookieconsent.initialise({
     }
   },
   "theme": "edgeless",
-  "position": "top",
+  "position": "bottom",
   "content": {
     "message": "This website uses Cookies 🍪 to store data."
   }
